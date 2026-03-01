@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bozkırın Kalbi Kadın Girişim Kooperatifi - Kendine Yeten Siteler
 
-## Getting Started
+Türkiye'den Türk Dünyasına uzanan, kadın emeğiyle inşa edilen *dayanıklı* ve *kendi kendine yeten* modern mahalleler projesinin (Modüler Altyapı) web yüzü ve hesaplama platformu.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Proje Hakkında (Öne Çıkan Özellikler)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Bu web uygulaması, kooperatifin **"Modüler Lego Altyapı"** vizyonunu dijital dünyaya aktaran modern, performanslı ve interaktif bir platformdur. 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Next.js (App Router), Tailwind CSS ve shadcn/ui ekosistemi kullanılarak, yüksek performanslı ve modern bir mimaride gerçekleştirilmiştir.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1. Modern Kurumsal Kimlik (UI/UX)
+- "Kendine Yeten Siteler, Dayanıklı Mahalleler" vizyonuna uygun şık, doğa ağırlıklı (Zümrüt Yeşili, Toprak, Su mavisi) renk kartelalarına sahip bir **Ana Sayfa** kodlandı.
+- Unsplash'ten çekilen yüksek çözünürlüklü tematik fotoğraflar (güneş panelleri, dikey tarım, kadın emeği) entegre edildi ve göze batmayan animasyonlarla (Hover, Scale) zenginleştirildi.
+- Giriş (Hero) bölümü, "Hikayemiz" alanı ve markanın "3 Temel Odak Noktası" (Gıda, Enerji, Sosyal Dayanışma) şık kartlarla dizayn edildi.
 
-## Learn More
+### 2. Akıllı Modüler Altyapı Hesaplayıcısı
+- Projenin Lego mimarisi (modüler) mantığı çözümlenerek hazırlanan, özel bir React Hooks mimarisine sahip **Dinamik Hesaplayıcı (`ModularCalculator`)** modülü.
+- **Kişi Sayısı Verisi:** Hem bar (Slider) hem de sayısal Input üzerinden eşzamanlı veri girişi.
+- **Saha CheckList'i (Switch Modülleri):** Sahanın özelliklerini net yansıtan sorular (Güneş uygunluğu, Rüzgar potansiyeli, Toprak yapısı, Yağmur verimliliği).
+- Parametrelere göre çalışan anlık algoritma: Sonuçları **Gereken Altyapı Modülleri** listesi olarak (Solar Panel, Rüzgar Türbini, Dikey Tarım Ünitesi, Su Deposu vb.) sayfaya yansıtır.
 
-To learn more about Next.js, take a look at the following resources:
+### 3. Proje Yol Haritası (Timeline) & Alt Bilgi (Footer)
+- Projenin gelecekteki ölçeklenmesini (1., 2. ve 3. Faz) anlatan, kendi ikonlarına (`lucide-react`) ve renk gruplarına sahip dikey bir `Timeline`.
+- Tasarım estetiğini tamamlamak ve kurumsallığı vurgulamak amacıyla alt kısımda iletişim, kısa linkler ve misyon içeren koyu yeşil bir kurumsal `Footer`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Kullanılan Teknolojiler
 
-## Deploy on Vercel
+- **Core:** Next.js 14+ (App Router) & React 18
+- **Styling:** Tailwind CSS
+- **Bileşen Kütüphanesi:** shadcn/ui
+- **İkonlar:** lucide-react
+- **Dil:** TypeScript
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚙️ Kurulum ve Çalıştırma (Geliştiriciler İçin)
+
+Projeyi bilgisayarınıza indirip yerel (local) ortamda çalıştırmak için aşağıdaki adımları izleyebilirsiniz.
+
+1. **Repoyu Klonlayın:**
+   ```bash
+   git clone https://github.com/hakanveli06/bozkirineli-deneme.git
+   ```
+
+2. **Dizine Gidin:**
+   ```bash
+   cd bozkirin-eli-web
+   ```
+
+3. **Gereksinimleri Yükleyin:**
+   ```bash
+   npm install
+   ```
+
+4. **Geliştirici Sunucusunu Başlatın:**
+   ```bash
+   npm run dev
+   ```
+
+Tarayıcınızdan `http://localhost:3000` adresine giderek projeyi heyecanla test edebilirsiniz.
+
+> © 2026 Bozkırın Kalbi Kadın Girişim Kooperatifi. Tüm hakları saklıdır.
